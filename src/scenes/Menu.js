@@ -1,3 +1,22 @@
+/*
+Mikayla Borresen, Rocket Patrol Mods, 4/23/2021
+  Time to Complete: ~3 days
+Points Breakdown: 
+  Redesign Artwork [60]
+  - New ship, rocket, and background sprites
+  - New menu UI, recolored points UI
+  - New buttonpress, rocket-fire, and ship-explode sounds
+  New spaceship Type [20]
+  - New, smaller ship with unique points, speed, and artwork
+  Parallax Scrolling [10]
+  - 2 additional background elements moving at seperate speeds
+  Animated Sprites [10]
+  - Animations for both spaceship types
+
+Help Sources:
+  Mariel Folkerts, my friend :)
+*/
+
 class Menu extends Phaser.Scene {
     constructor() {
         super("menuScene");
